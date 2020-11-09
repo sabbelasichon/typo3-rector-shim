@@ -1,0 +1,17 @@
+{
+  "name": "ssch/typo3-rector-shim",
+  "description": "typo3-rector phar distribution",
+  "license": "MIT",
+  "authors": [
+    { "name": "Sebastian Schreiber", "email": "breakpoint@schreibersebastian.de" }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "bin": [
+    "typo3-rector"
+  ],
+  "replace": {
+    "ssch/typo3-rector": "self.version"
+  }
+}
