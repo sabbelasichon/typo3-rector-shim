@@ -9,7 +9,8 @@
     "php": "^7.2"
   },
   "bin": [
-    "typo3-rector"
+    "typo3-rector",
+    "typo3-rector.phar"
   ],
   "replace": {
     "ssch/typo3-rector": "self.version"
