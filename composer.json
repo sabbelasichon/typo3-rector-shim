@@ -6,7 +6,7 @@
     { "name": "Sebastian Schreiber", "email": "breakpoint@schreibersebastian.de" }
   ],
   "require": {
-    "php": "^7.2"
+    "php": "^7.3|^8.0"
   },
   "bin": [
     "typo3-rector",
